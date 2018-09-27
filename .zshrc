@@ -96,7 +96,7 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-alias zshconfig="mate ~/.zshrc"
+alias zshconfig="vi .zshrc"
 alias vi="nvim"
 alias ll="ls -la"
 alias sudo="sudo "

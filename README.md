@@ -12,5 +12,5 @@ My Linux Default setting files
 6. Install Plugin through ":PluginInstall"
 7. To use deoplete vundle, write ":UpdateRemotePlugins"
 8. Install zsh
-9. Install 'Oh-My-zsh' through Next line<br>
+9. Install 'Oh-My-zsh' through next command line<br>
     curl -L https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh | sh

@@ -4,7 +4,8 @@ My Linux Default setting files
 == To Do before apply this setting files ==
 
 1. Install Python
-2. Install NeoVim
+2. Install NeoVim<br>
+    pip2(pip3) install --upgrade neovim
 3. Download Vundle Packege from next command line<br>
     git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 4. Run nvim

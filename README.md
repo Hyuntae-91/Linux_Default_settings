@@ -14,3 +14,8 @@ My Linux Default setting files
 8. Install zsh
 9. Install 'Oh-My-zsh' through next command line<br>
     curl -L https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh | sh
+
+
+Todo list
+- tmux configuration
+- font installation for powerline

@@ -1,4 +1,4 @@
-# Linux_settings
+# Linux settings
 My Linux Default setting files
 
 == To Do before apply this setting files ==
@@ -12,11 +12,10 @@ My Linux Default setting files
 5. Check "PluginList"
 6. Install Plugin through ":PluginInstall"
 7. To use deoplete vundle, write ":UpdateRemotePlugins"
-8. Install zsh
-9. Install 'Oh-My-zsh' through next command line<br>
+8. Install tmux
+9. Install zsh
+10. Install 'Oh-My-zsh' through next command line<br>
     curl -L https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh | sh
+11. Install fonts for Powerline
+    https://github.com/Hyuntae-91/fonts.git
 
-
-Todo list
-- tmux configuration
-- font installation for powerline

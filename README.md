@@ -1,7 +1,7 @@
 # Linux settings
 My Linux Default setting files
 
-== To Do before apply this setting files ==
+== How to apply this setting files ==
 
 1. Install Python
 2. Install NeoVim<br>

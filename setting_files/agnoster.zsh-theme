@@ -237,11 +237,11 @@ prompt_multiline() {
 ## Main prompt
 build_prompt() {
   RETVAL=$?
+  prompt_git
   prompt_status
   prompt_virtualenv
   prompt_context
   prompt_dir
-  prompt_git
   prompt_bzr
   prompt_hg
   prompt_multiline

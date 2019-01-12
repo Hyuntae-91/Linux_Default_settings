@@ -1,4 +1,4 @@
-# if you come from bash you might have to change your $path.
+# If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
@@ -101,6 +101,5 @@ alias vimconfig="vi .vimrc"
 alias vi="nvim"
 alias ll="ls -la"
 alias sudo="sudo "
+alias tmux="TERM=screen-256color-bce tmux"
 
-export CLICOLOR=1
-export LSCOLORS=ExCxBxDxFxegedabagacad

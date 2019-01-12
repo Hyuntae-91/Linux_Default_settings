@@ -1,1 +1,0 @@
-/home/netpi/.vimrc

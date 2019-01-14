@@ -1,5 +1,11 @@
 #! /bin/bash
 
+if [ $UID == 0 ];
+then
+    echo "Do not use 'sudo' command ! !"
+    exit 1
+fi
+
 clear
 echo "========================================"
 echo "== Installing dev-env ... Please wait =="

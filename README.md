@@ -1,19 +1,23 @@
 # Development Enviroment settings
 My Development Enviroment Default setting files
 
+NOTE:
+ - Do not use `sudo` command when you using shell script file.
+
 ## Linux
-To install dev setting on Linux, Using next command
+To install Development settings on Linux, Using next command
 ~~~
-sudo apt-get install git
-sudo ./Auto_Install_Linux.sh
+apt-get install git
+git clone https://github.com/Hyuntae-91/dev_settings.git
+./Auto_Install_Linux.sh
 ~~~
 
 ## Mac OS
-To install dev setting on Mac, Using next command<br>
-Note : Do not use `sudo` Command
+To install Development setting on Mac, Using next command
 ~~~
 ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 brew install git
+git clone https://github.com/Hyuntae-91/dev_settings.git
 ./Auto_Install_Mac.sh
 ~~~
 
@@ -22,6 +26,7 @@ brew install git
 - Python
 - pip
 - Neovim
+- Neovim Plugins
 - Git
 - zsh
 - tmux
@@ -30,8 +35,8 @@ brew install git
 - .bashrc
 - .zshrc
 - .tmux.conf
-- agnoster.zsh-theme
 - python.snippets
-- Neovim Plugins
 - Oh-My-Zsh
+- agnoster.zsh-theme -> Oh-My-Zsh Theme
+- NeoVim color setting -> iceberg
 

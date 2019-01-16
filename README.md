@@ -35,8 +35,8 @@ git clone https://github.com/Hyuntae-91/dev_settings.git
 - .bashrc
 - .zshrc
 - .tmux.conf
-- python.snippets
 - Oh-My-Zsh
 - agnoster.zsh-theme -> Oh-My-Zsh Theme
 - NeoVim color setting -> iceberg
-
+- Solidity Plugin
+- python.snippets

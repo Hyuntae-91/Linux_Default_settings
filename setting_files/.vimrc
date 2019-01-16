@@ -56,6 +56,7 @@ Plugin 'Syntastic'
 Plugin 'Shougo/deoplete.nvim'
 Plugin 'Rip-Rip/clang_complete'
 Plugin 'scrooloose/nerdcommenter'
+Plugin 'tomlion/vim-solidity'
  
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
@@ -153,3 +154,6 @@ let g:NERDTrimTrailingWhitespace = 1
 " customize keymapping
 map <Leader>cc <plug>NERDComToggleComment
 map <Leader>c<space> <plug>NERDComComment
+
+" Solidity Plugin
+Plug 'tomlion/vim-solidity'

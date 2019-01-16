@@ -39,6 +39,7 @@ echo `ln -s $HOME/.vimrc $HOME/.config/nvim/init.vim 1>> log.log`
 echo `cp -R $PWD/setting_files/colors $HOME/.config/nvim/ 1>> log.log` 
 echo `ln -s $HOME/.vim/colors/ $HOME/.config/nvim/colors/ 1>> log.log`
 echo `git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim 1>> log.log`
+echo `git clone https://github.com/tomlion/vim-solidity.git ~/.vim/bundle/vim-solidity 1>> log.log`
 echo `nvim -c 'PluginInstall' -c 'qa!'`
 echo `nvim -c 'UpdateRemotePlugins' -c 'qa!'`
 echo `cp $PWD/setting_files/python.snippets $HOME/.vim/bundle/vim-snippets/snippets/ 1>> log.log`

@@ -58,6 +58,8 @@ echo `git clone https://github.com/tomlion/vim-solidity.git ~/.vim/bundle/vim-so
 echo `nvim -c 'PluginInstall' -c 'qa!'`
 echo `nvim -c 'UpdateRemotePlugins' -c 'qa!'`
 echo `cp $PWD/setting_files/python.snippets $HOME/.vim/bundle/vim-snippets/snippets/ 1>> log.log`
+echo `cp $PWD/setting_files/c.snippets $HOME/.vim/bundle/vim-snippets/snippets/ 1>> log.log`
+echo `cp $PWD/setting_files/cpp.snippets $HOME/.vim/bundle/vim-snippets/snippets/ 1>> log.log`
 
 echo ""
 echo "Installing Oh-My-Zsh..."
